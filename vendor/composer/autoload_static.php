@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit7fffe75011a23199d7ba4e47de5dade8
+class ComposerStaticInitd3b2de1d29f62a32528dfec22e93f1d8
 {
     public static $files = array (
         'be01b9b16925dcb22165c40b46681ac6' => __DIR__ . '/..' . '/wp-cli/php-cli-tools/lib/cli/cli.php',
@@ -27,8 +27,8 @@ class ComposerStaticInit7fffe75011a23199d7ba4e47de5dade8
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->fallbackDirsPsr4 = ComposerStaticInit7fffe75011a23199d7ba4e47de5dade8::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit7fffe75011a23199d7ba4e47de5dade8::$prefixesPsr0;
+            $loader->fallbackDirsPsr4 = ComposerStaticInitd3b2de1d29f62a32528dfec22e93f1d8::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitd3b2de1d29f62a32528dfec22e93f1d8::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }

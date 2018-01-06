@@ -1,5 +1,5 @@
 # Mikko-test
-Required: Git, Composer, PHP 5.5+ CLI
+Required: Git, Composer, PHP
 
 1. Clone the code from GitHub:
 
@@ -11,8 +11,4 @@ Required: Git, Composer, PHP 5.5+ CLI
 
 3. Generate the CSV file as payments.csv
 
-    #  ./generate-payments.php
-	
-TODO
-	- Pass arguments with php-cli-tools
-	- Error handling
+    #  php generate-payments.php
