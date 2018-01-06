@@ -10,7 +10,7 @@ class Payment{
 	private $fileHandler;
 	private $timestamp;
 	
-	 /**
+	/**
      * Constructor
      */
 	public function __construct($filename){
@@ -18,7 +18,7 @@ class Payment{
 		$this->timestamp = time();
     }
 	
-	 /**
+	/**
      * Generate the csv file
      */
 	public function generate(){
