@@ -11,4 +11,4 @@ Required: Git, Composer, PHP
 
 3. Generate the CSV file as payments.csv
 
-    #  php generate-payments.php
+    # php generate-payments.php
